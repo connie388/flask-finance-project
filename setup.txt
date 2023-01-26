@@ -21,6 +21,7 @@ as I want to hide the api key, I ask
                     ---> pip install request
                     ---> pip install pandas
                     ---> pip install python-dotenv
+                    ---> pip install mplcursors --user
 
 3) run > python timeseries_intraday.py
 4) access the webpage that running on http://127.0.0.1:5000
