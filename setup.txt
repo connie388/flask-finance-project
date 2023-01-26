@@ -1,0 +1,34 @@
+This is a project try to create a simple web page using chatgpt.
+
+Here are the questions to I ask
+- any free finance api in the market
+- please give me example to use alphavantage.co api using python
+- how to display in webpage in python then
+- show me the index.html
+- from alpha_vantage.timeseries import TimeSeries show errors. am i missing something
+- import requests has error
+- I still got Import "alpha_vantage.timeseries" could not be resolved Pylance
+- the pandas library was not found
+- it seems that timeseries is premium api, any free api
+- please show me example to how to create webpage use intraday timeserives  data
+- what is the example of index.html
+
+as I want to hide the api key, I ask
+- how to hide the api key in .env
+
+1) from https://www.alphavantage.co/ obtain the api key
+2) Run in terminal--> pip install alpha_vantage
+                    ---> pip install request
+                    ---> pip install pandas
+                    ---> pip install python-dotenv
+
+3) run > python timeseries_intraday.py
+4) access the webpage that running on http://127.0.0.1:5000
+
+My thoughts:
+1) Questions need to be detail, for example, in my second question, I miss the word "free api". Chatgpt showed 
+   me timeseries from alphavantage which is for premium members.
+2) The programs are simple but working. Chatgpt assumes you already install the libraries required.
+
+
+
